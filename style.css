@@ -1,0 +1,7 @@
+
+body { font-family: sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
+header, footer { background: #333; color: white; padding: 1rem; text-align: center; }
+main { padding: 1rem; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.property-card { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+.property-card img { width: 100%; height: auto; border-radius: 4px; }
+#filters { padding: 1rem; display: flex; gap: 1rem; justify-content: center; }
